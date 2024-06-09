@@ -26,8 +26,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.PAT }} #A: allow push
       - name: Setup Python #A: for Colab, nbconvert
         uses: actions/setup-python@v1
         with:
