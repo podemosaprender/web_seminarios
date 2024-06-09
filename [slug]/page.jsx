@@ -93,7 +93,7 @@ export default async function Seminario({params}) {
 					<h1 class="title">¿Qué dicen las personas que participaron?</h1>
 					<div class="container is-max-desktop">
 						<figure class="image is-16by9">
-							<img src="../../static/images/seminarios_nps.png" alt="Gráfico de barras ¿Qué chances hay de que se lo recomiendes a otras personas? 75% el máximo 'se lo regalaría a personas que quiero', 25% el anterior" />
+							<img src="../static/images/seminarios_nps.png" alt="Gráfico de barras ¿Qué chances hay de que se lo recomiendes a otras personas? 75% el máximo 'se lo regalaría a personas que quiero', 25% el anterior" />
 						</figure>
 					</div>
 				</section>
