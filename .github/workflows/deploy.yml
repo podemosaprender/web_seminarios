@@ -63,3 +63,4 @@ jobs:
            npx gh-pages -d site/out -u "github-actions-bot <support+actions@github.com>"
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           CACHE_DIR: "/tmp"
