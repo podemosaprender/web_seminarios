@@ -1,0 +1,13 @@
+
+
+.tema1_bg, .tema2_bg {
+	background: linear-gradient( #2d0149ec, #2d0149ec), url('../images/monedas1.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
