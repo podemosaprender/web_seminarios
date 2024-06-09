@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "lts/*"
+          node-version: "lts/20"
       - name: Setup Java #A: for plantuml
         uses: actions/setup-java@v3
         with:
@@ -41,8 +41,6 @@ jobs:
           java-version: '17'
       - name: Setup Graphviz #A: for plantuml
         uses: ts-graphviz/setup-graphviz@v1
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
       - name: Run prepare script
         run: _build/prepare.sh
       - name: Restore cache 
