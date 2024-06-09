@@ -53,6 +53,7 @@ export default function Contacto() {
 						<form action="https://api1.o-o.fyi/v1/form/asform" method="POST" className="o-o-form" 
 							onSubmit={(e) => onSubmit(e, feedback)}
 							>
+						<input type="hidden" name="o-o-form-dont-redirect" value="true" />
 						<input type="hidden" name="o-o-form-entity" value="contact" />
 						<input type="hidden" name="name" value="a_user" />
 							<div className="field">
